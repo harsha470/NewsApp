@@ -5,7 +5,7 @@ import News from './components/News';
 import { Route,Routes } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
 export default class App extends Component {
-  pageSize = 5  ; 
+  pageSize = 6  ; 
   // apiKey = "ad641ed3bdaa4f2295710b5fcfbaa886" ; 
   apiKey  =  process.env.REACT_APP_NEWS_API ; 
 
